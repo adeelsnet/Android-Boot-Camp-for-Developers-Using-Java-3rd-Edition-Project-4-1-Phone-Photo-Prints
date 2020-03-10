@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Photo Prints</string>
+    <string name="app_heading">Phone Photo Prints</string>
+    <string name="app_placeHolder">Number of Prints</string>
+    <string name="app_4x6">4 x 6 (19 cents)</string>
+    <string name="app_5x7">5 x 7 (49 cents)</string>
+    <string name="app_8x10">8 x 10 (79 cents)</string>
+    <string name="action_settings">Settings</string>
+</resources>

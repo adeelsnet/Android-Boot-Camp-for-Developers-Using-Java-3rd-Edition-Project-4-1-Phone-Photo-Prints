@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D3D3D3</color>
+    <color name="colorPrimaryDark">#808080</color>
+    <color name="colorAppName_OptionsColor">#000000</color>
+    <color name="colorHeadingHintResult">#5967B5</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>

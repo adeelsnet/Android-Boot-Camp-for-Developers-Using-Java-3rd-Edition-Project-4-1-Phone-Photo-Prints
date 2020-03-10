@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="header_height">72dp</dimen>
+    <dimen name="header_margin">16dp</dimen>
+</resources>

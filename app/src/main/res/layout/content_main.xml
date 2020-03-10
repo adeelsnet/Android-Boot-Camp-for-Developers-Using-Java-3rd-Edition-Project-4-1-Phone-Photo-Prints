@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_heading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorHeadingHintResult"
+        app:layout_constraintBottom_toTopOf="@+id/picSizes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/picSizes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/fourBySix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_4x6"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/fiveBySeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_5x7"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/eightByTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_8x10"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/NumOfPrints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center|center_horizontal"
+        android:hint="@string/app_placeHolder"
+        android:inputType="number"
+        android:textColorHint="@color/colorHeadingHintResult"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/picSizes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/resultDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorHeadingHintResult"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picSizes"
+        tools:text="Result" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
